@@ -1,12 +1,17 @@
 
-
-h1{border-style:solid;
-   border-width:20px;
-   border-color:grey;
-   padding:24px
+body{
+	font-family:century;
+	font-size:18px;
+}
+h1{/*border-style:solid;*/
+/*   border-width:20px;*/
+/*   border-color:grey;
+*/   padding:24px
    text-align:center;
 }
-
+.cont{
+	width:;
+}
 
 .friends{font-size:40px;
 	padding:2px;
@@ -30,15 +35,63 @@ ol li{
 	padding-left:10px;
 
 }
+.navbar{
+	background-color: #252e30;
+	color: #FFF;
+	padding-left: 0px;
+	overflow: hidden;
+	text-transform: uppercase;
+	margin:0 auto;
+}
+.navbar{
 
+}
+ .navbar h2 {
+ color: #FFF; 
+}
+ .navbar h2 span{ 
+	color: #2a9058; 
+}
+.navbar ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right;
+}
 
+ .navbar ul li { 
+	padding: 0 10px; 
+	float: left;
+	margin:0;
+}
+ .navbar ul li a{ 
+	color:#FFF;
+	 text-decoration: none;
+}
+ .navbar ul li.active a,
+ .navbar ul li a:hover{
+	color:#3c7316;
+}
+ a{
+	padding-left:30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+	color: #FFF;
+	border: 1px solid #d6fbff;
+	font-weight:bold;
+	text-transform: uppercase;
+	margin:20px auto 0 auto;
+}
 
+/*
 ul li{
 	display:inline;
 	padding:50px;
 	font-size: 15px;
 	font-family:helvetica;
-}
+}*/
 
 img{
 	border-color: white
@@ -69,7 +122,7 @@ text-align:center;
 body{
 	margin:0px;
 	padding:0px;
-	background-color:purple;
+	background-color:#fff;
 
 }
 

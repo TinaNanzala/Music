@@ -1,0 +1,17 @@
+body{
+	background-color: #ffe6e6;
+	background-image: url(../img/me.jpg),url(../img/hills.jpg)
+		background-position: 20% top,center;
+	background-size:20%,cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed
+}
+
+.container{
+	background-color:rgba(0,0,0,0.5);
+	width:600px;
+	margin:0 auto;
+	min-height:500px;
+	padding:30px;
+	color:#fff;
+}
